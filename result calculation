@@ -1,3 +1,5 @@
+
+//result calculaton
 #include <stdio.h>
 int main()
 {
