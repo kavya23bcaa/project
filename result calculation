@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    int phy, chem, bio, math, comp; 
+    int science, accounts, computer, statistics, java; 
     float per; 
     printf("Enter five subjects marks: ");
     scanf("%d%d%d%d%d", &phy, &chem, &bio, &math, &comp);
-    per = (phy + chem + bio + math + comp) / 5.0;
+    per = (science + accounts + computer + statistics +java) / 5.0;
 
     printf("Percentage = %.2f\n", per);
     if(per >= 90)
