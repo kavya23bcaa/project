@@ -3,10 +3,10 @@
 
 int main()
 {
-int a,b,c;
-printf("Enter the two numbers\n");
-scanf("%d%d",&a,&b);
-c=a+b;
-printf("Sum of the two numbers is %d",c);
+int a,b,c,d;
+printf("Enter the three numbers\n");
+scanf("%d%d",&a,&b,&d);
+c=a+b+d;
+printf("Sum of the three numbers is %d",c);
 return 0;
 }
